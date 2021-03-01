@@ -1,0 +1,37 @@
+.players-info{
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin: 20px;
+}
+.player-img{
+    background-color: #e4e6e6;
+    text-align: center;
+    padding: 10px;
+}
+.player-img img{
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px black;
+}
+.info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info-section span {
+    font-weight: bold;
+}
+.bg-color{
+    background-image: linear-gradient(to right, #66c1f5, #a6eb12e5);
+}
+.add-btn{
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: tomato;
+    color: white;
+}
+.team-section li{
+    list-style: none;
+}
